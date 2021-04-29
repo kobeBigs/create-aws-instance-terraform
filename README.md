@@ -24,7 +24,7 @@ In `main.tf` change:
 ## how to run it
 1. Open your terminal, clone this repo.
 2. Navigate in to the repo dir  
-    `cd path-to-repo/aws-instance`.
+    `cd path-to-repo/create-aws-instance-terraform`.
 3. Run `terraform  init` to initialize the configuration.
 4. Apply the configuration `terraform apply`.  
     Type **yes** at the prompt as confirmation to create the instance/infrastructure. 
