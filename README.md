@@ -23,12 +23,13 @@ In `main.tf` change:
 
 ## how to run it
 1. Open your terminal, clone this repo.
-2. Navigate in to the repo dir  
+2. Navigate in to the repo dir
     `cd path-to-repo/create-aws-instance-terraform`.
 3. Run `terraform  init` to initialize the configuration.
-4. Apply the configuration `terraform apply`.  
-    Type **yes** at the prompt as confirmation to create the instance/infrastructure. 
-5. Go to your aws console to see the instance created.
+4. Run `terraform plan` to preview what terraform is about to create or change.
+5. Apply the configuration `terraform apply`.
+    Type **yes** at the prompt as confirmation to create the instance/infrastructure.
+6. Go to your aws console to see the instance created.
 
 Voila!
 
